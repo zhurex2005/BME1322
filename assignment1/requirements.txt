@@ -1,0 +1,20 @@
+# BME1322 Assignment 1 -- generalized Gomoku project dependencies
+#
+# This project uses only the Python standard library; no third-party package
+# needs to be installed:
+#
+#   * gomoku_ai.py    : standard library only (random, time); the course judge
+#                       arena.py loads it on its own via importlib, so it does
+#                       not depend on any other module in the same directory
+#   * gomoku_game.py  : standard library only
+#   * main.py / main_cli.py / gui.py : standard library only (gui.py uses tkinter)
+#
+# tkinter ships with the official CPython installers; on Linux distributions
+# that lack it, install python3-tk with the system package manager. Without
+# tkinter, main.py automatically falls back to the command-line interface.
+#
+# The experiment script experiment.py also depends on the standard library only.
+#
+# To enable the optional numpy acceleration (disabled by default in this
+# version), uncomment the next line:
+# numpy>=1.21
