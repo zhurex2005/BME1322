@@ -1,0 +1,10 @@
+# BME1322 Assignment 3 -- dependencies
+#
+# The agents (model_based.py, q_learning.py) and the experiment driver (main.py)
+# use only the Python standard library: no RL or planning package is imported.
+#
+# Figures are drawn through plotting.py, which prefers matplotlib and falls back to a
+# dependency-free Pillow renderer when matplotlib is not installed. Either one is
+# enough to reproduce every figure in report.md.
+matplotlib>=3.5
+Pillow>=9.0
