@@ -1,7 +1,6 @@
 # BME1322 Assignment 3 — Blood-Glucose Management: Model-Based Planning vs. Tabular Q-Learning
 
-**Author:** *(student name / ID)*
-**Code:** `assignment3/model_based.py`, `assignment3/q_learning.py`, `assignment3/main.py`, `assignment3/plotting.py`
+
 
 ---
 
